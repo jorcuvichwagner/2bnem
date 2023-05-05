@@ -1,0 +1,22 @@
+.logoping{
+    width: 10%;
+}
+
+header{
+    background-color: rgb(221, 221, 170);
+}
+
+nav li{
+    display: inline;
+    margin: 5px;
+}
+
+nav {
+    text-align: right;
+}
+
+header{
+    position: relative;
+    top: 50%;
+}
+
