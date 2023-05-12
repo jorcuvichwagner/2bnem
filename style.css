@@ -1,22 +1,45 @@
+/* dimensiona o tamano da imagem para 10% da página */
 .logoping{
     width: 10%;
 }
 
-header{
-    background-color: rgb(221, 221, 170);
-}
-
-nav li{
-    display: inline;
-    margin: 5px;
-}
-
-nav {
-    text-align: right;
-}
 
 header{
-    position: relative;
-    top: 50%;
+    background-color: rgb(221, 221, 170); /* muda cor de fundo do header */
+    display: flex;/* permite colocar os links ao lado da imagem */
 }
 
+
+nav li{ /* aqui eu modifico apenas a lista de links */
+    display: inline; /* coloca os links do navegador em linha */
+    margin: 15px; /* espaço entre os links */
+}
+
+nav a{ /* aqui eu modifico apenas as palavras ancoradas */
+    text-decoration: none;/* tira a linha das palavras ancoradas */
+    font-size: 25px;/* aumenta a letra da as palavras ancoradas */
+    color: red;
+    border: solid yellowgreen; /* coloco uma borda ao redor da palavra */
+    background: white; /* fundo do botaoo */
+    transition: 1s; /* tempo de trasicao */
+}
+nav a:hover{ /* aqui eu faco uma animacaozinha dos botoes */
+    font-size: 23px;/* aumenta a letra da as palavras ancoradas */
+    color: white; /* modifico a cor da letra */
+    border: solid rgb(119, 13, 13); /* modifico a cor da borda */
+    background: black; /* modifico a cor do fundo */
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right, burlywood , chocolate);/* faz um degrade da cor do elemento */
+
+}
+
+main{
+    text-align: justify; /* deixa o texto no formato quadrado */
+    background-color: burlywood;
+    margin: 50px; /* margem para fora do elemento main */
+    padding: 50px; /* margem para dentro do mains */
+}
+/*  */
