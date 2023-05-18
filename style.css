@@ -3,10 +3,14 @@
     width: 10%;
 }
 
+nav{
+    margin-top: 40px;
+}
 
 header{
-    background-color: rgb(221, 221, 170); /* muda cor de fundo do header */
+    background-image: linear-gradient(to right, rgb(182, 173, 218) , rgb(101, 192, 91));/* faz um degrade da cor do elemento */
     display: flex;/* permite colocar os links ao lado da imagem */
+    padding: 10px;
 }
 
 
@@ -37,13 +41,18 @@ footer{
 }
 
 main{
-    text-align: justify flex; /* deixa o texto no formato quadrado */
+    text-align: justify; /* deixa o texto no formato quadrado */
     background-color: burlywood;
     margin: 50px; /* margem para fora do elemento main */
     padding: 50px; /* margem para dentro do mains */
 }
 
 .familia{
-    width: 400px;
+    width: 25%; /* tamano da imagem em relacao a tela */
+    float: right; /* imagem flutuante no texto do lado direito */
+    margin: 20px;
+}
+.titulo_main{
+    text-align: center;
 }
 /*  */
