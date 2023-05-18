@@ -42,4 +42,8 @@ main{
     margin: 50px; /* margem para fora do elemento main */
     padding: 50px; /* margem para dentro do mains */
 }
+
+.familia{
+    width: 25%;
+}
 /*  */
