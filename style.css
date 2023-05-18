@@ -37,7 +37,7 @@ footer{
 }
 
 main{
-    text-align: justify; /* deixa o texto no formato quadrado */
+    text-align: justify flex; /* deixa o texto no formato quadrado */
     background-color: burlywood;
     margin: 50px; /* margem para fora do elemento main */
     padding: 50px; /* margem para dentro do mains */
